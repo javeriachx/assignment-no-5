@@ -1,0 +1,20 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    margin-bottom: 10px;
+    transition: background-color 0.5s smooth;
+    background-color: grey;
+    height: 20px;
+    width: 80px;
+}
+li:hover{
+    background-color: purple;
+}
+li:nth-child(odd){
+    background-color: pink;
+}
+li:nth-child(odd):hover{
+    background-color: purple;
+}
