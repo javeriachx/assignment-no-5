@@ -1,0 +1,11 @@
+.para1 {
+    font-size: 40px;
+}
+.para1::first-line {
+    font-weight: bold;
+    color: rgb(33, 33, 71);
+}
+.para2::first-letter {
+    font-weight: 700;
+    color: red;
+}
